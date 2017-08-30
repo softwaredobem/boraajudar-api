@@ -10,6 +10,6 @@ describe('IndexController', () => {
     }
     index.index(req, res)
     expect(res.send.calledOnce).to.be.true
-    expect(res.send.calledWith('BoraAjudarAPI')).to.be.true
+    expect(res.send.calledWith('BoraAjudarAPI-should-no-pass')).to.be.true
   })
 })
