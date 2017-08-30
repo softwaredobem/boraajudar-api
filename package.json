@@ -1,0 +1,34 @@
+{
+  "name": "boraajudar-api",
+  "version": "0.0.1",
+  "description": "API para o projeto BoraAjudar",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec **/*.test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwaredobem/boraajudar-api.git"
+  },
+  "keywords": [
+    "software-do-bem"
+  ],
+  "author": "Software do Bem",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/softwaredobem/boraajudar-api/issues"
+  },
+  "homepage": "https://github.com/softwaredobem/boraajudar-api#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.1",
+    "supertest-chai": "^0.0.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
