@@ -4,5 +4,5 @@ node_js:
 after_success: bash gen-docs.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "8717a2843aba"
+  - ENCRYPTION_LABEL: "07fabeb3b90d"
   - COMMIT_AUTHOR_EMAIL: "tuliofaria@gmail.com"
