@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec **/*.test.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "gen-docs": "./node_modules/.bin/aglio -i docs.md --theme-full-width --no-theme-condense -o out/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/softwaredobem/boraajudar-api#readme",
   "devDependencies": {
+    "aglio": "^2.3.0",
     "chai": "^4.1.1",
     "mocha": "^3.5.0",
     "nyc": "^11.1.0",
